@@ -2,6 +2,9 @@
 
 Convert **manually uploaded LinkedIn screenshots** into reviewed, CRM-ready company/contact/route data, and produce clean email drafts for Paul that never reveal the screenshot/OCR/extraction source.
 
+> [!TIP]
+> **Evaluating this project?** Read the [Engineering Overview](ENGINEERING_OVERVIEW.md) for the multimodal AI architecture, deterministic safety model, guided code tour, verification commands, and honest implementation boundaries.
+
 ## What this app does
 - Nilhan uploads LinkedIn screenshots into a batch for a target **Company**.
 - Screenshots are stored **permanently** under `data/uploads` (sha256-hashed).
