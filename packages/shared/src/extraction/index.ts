@@ -1,0 +1,36 @@
+export {
+  classifyConfidence,
+  classifyFieldConfidence,
+  isLowConfidencePerson,
+  hasAnyLowConfidenceField,
+  confidenceLabel,
+  confidenceColor,
+  CONFIDENCE_HIGH_THRESHOLD,
+  CONFIDENCE_MEDIUM_THRESHOLD,
+  type ConfidenceClass,
+  type FieldConfidenceInput,
+  type FieldConfidenceResult,
+} from "./confidence.js";
+export {
+  classifyExtractionError,
+  isRetryable,
+  classifyMissingCredentials,
+  classifyMalformedJson,
+  classifySchemaValidationFailed,
+  classifyModelRequestFailed,
+  classifyModelTimeout,
+  classifyEmptyPeople,
+  classifyPartialExtraction,
+  classifyLowConfidence,
+  classifyUnknownError,
+  ERROR_MESSAGES,
+  RETRYABLE_ERRORS,
+  type ExtractionErrorCategory,
+  type ExtractionError,
+} from "./errors.js";
+export {
+  normalizeGeminiExtraction,
+  normalizePerson,
+  type NormalizedPerson,
+  type NormalizedExtraction,
+} from "./normalizer.js";

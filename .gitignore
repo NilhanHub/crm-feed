@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Web
+apps/web/dist/
+
+# Local data (real local persistence — do not commit runtime data)
+data/backups/
+data/uploads/*
+!data/uploads/.gitkeep
+data/db/*
+!data/db/.gitkeep
+data/exports/*
+!data/exports/.gitkeep
+
+# Environment
+.env
+.env.local
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local verification and scratch artifacts
+Evidence/
+scratch/
+api_test_*.txt
+nul
+/nul
