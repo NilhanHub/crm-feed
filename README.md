@@ -1,5 +1,10 @@
 # CRM Feed
 
+<!-- portfolio-flagship -->
+<p align="center"><img src="docs/social-preview.png" alt="CRM Feed social preview" width="100%"></p>
+
+> **Portfolio review path:** Start with the capabilities and architecture below, then reproduce the documented verification commands. See [SECURITY.md](SECURITY.md), [CONTRIBUTING.md](CONTRIBUTING.md), and [RIGHTS.md](RIGHTS.md) for the project's operating and reuse boundaries.
+
 Convert **manually uploaded LinkedIn screenshots** into reviewed, CRM-ready company/contact/route data, and produce clean email drafts for Paul that never reveal the screenshot/OCR/extraction source.
 
 > [!TIP]
