@@ -11,6 +11,8 @@ export default defineConfig({
     // (one file's clear vs another's write). Single-fork serialises all test
     // files so they cannot interfere. The cost (~2s total) is negligible.
     pool: "forks",
-    poolOptions: { forks: { singleFork: true } },
+    // Vitest 4 removed poolOptions.singleFork. Disabling file-level
+    // parallelism preserves the same on-disk store isolation contract.
+    fileParallelism: false,
   },
 });
